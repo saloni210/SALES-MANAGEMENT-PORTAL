@@ -1,0 +1,140 @@
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background:url("../Images/login bg.jpg") no-repeat repeat;
+
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+    .form-signin .form-signin-heading,
+    .form-signin .checkbox {
+        margin-bottom: 10px;
+    }
+
+    .form-signin .checkbox {
+        font-weight: normal;
+    }
+
+    .form-signin .form-control {
+        position: relative;
+        height: auto;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 10px;
+        font-size: 16px;
+        transition:width ease-in-out;
+    }
+
+        .form-signin .form-control:focus {
+            z-index: 2;
+        }
+
+    .form-signin input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .form-signin input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+    .alert h4 {
+        margin-top: 0;
+        color: inherit;
+    }
+
+    .alert .alert-link {
+        font-weight: bold;
+    }
+
+    .alert > p,
+    .alert > ul {
+        margin-bottom: 0;
+    }
+
+        .alert > p + p {
+            margin-top: 5px;
+        }
+
+.alert-dismissable {
+    padding-right: 35px;
+}
+
+    .alert-dismissable .close {
+        position: relative;
+        top: -2px;
+        right: -21px;
+        color: inherit;
+    }
+    .alert-success {
+    color: white;
+    background-color: coral;
+    border-block-end-style:groove;
+    }
+
+    .alert-success hr {
+        border-top-color: #fcf8e3;
+    }
+
+    .alert-success .alert-link {
+        color: #3a87ad;
+    }
+
+    .alert-info {
+        text-decoration-color: #3a87ad;
+        background-color: #d9edf7;
+        border-color: #bce8f1;
+    }
+     
+
+        .alert-info hr {
+            border-top-color: #a6e1ec;
+        }
+
+        .alert-info .alert-link {
+            color: #2d6987;
+        }
+
+    .alert-warning {
+        color: #c09853;
+        background-color: #fcf8e3;
+        border-color: #fbeed5;
+    }
+
+        .alert-warning hr {
+            border-top-color: #f8e5be;
+        }
+
+        .alert-warning .alert-link {
+            color: #a47e3c;
+        }
+
+    .alert-danger {
+        color: #b94a48;
+        background-color: #f2dede;
+        border-color: #eed3d7;
+    }
+
+        .alert-danger hr {
+            border-top-color: #e6c1c7;
+        }
+
+        .alert-danger .alert-link {
+            color: #953b39;
+        }
+
